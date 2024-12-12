@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Gull Ocean",
+  name: "Gull",
   title: "Full Stack Developer",
   description: "Personal portfolio showcasing my projects and skills",
   github: "https://github.com/gullocean",
