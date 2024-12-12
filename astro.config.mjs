@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
   site: 'https://gullocean.github.io',
-  base: '/portfolio',
+  base: '/',
   integrations: [tailwind()],
   output: 'static',
   build: {
