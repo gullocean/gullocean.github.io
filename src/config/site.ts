@@ -1,9 +1,8 @@
 export const siteConfig = {
-  name: "Your Name",
+  name: "Gull Ocean",
   title: "Full Stack Developer",
   description: "Personal portfolio showcasing my projects and skills",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  email: "your.email@example.com",
+  github: "https://github.com/gullocean",
+  email: "gullocean@gmail.com",
   avatar: "/portfolio/images/avatar.jpg" // Updated to include base path
 };
