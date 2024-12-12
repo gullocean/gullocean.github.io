@@ -5,5 +5,5 @@ export const siteConfig = {
   github: "https://github.com/yourusername",
   linkedin: "https://linkedin.com/in/yourusername",
   email: "your.email@example.com",
-  avatar: "/images/avatar.jpg"
+  avatar: "/portfolio/images/avatar.jpg" // Updated to include base path
 };
