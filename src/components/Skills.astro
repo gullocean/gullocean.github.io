@@ -1,0 +1,24 @@
+---
+import { skills } from '../config/skills';
+import SectionHeading from './ui/SectionHeading.astro';
+---
+<section id="skills" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <SectionHeading
+      title="Skills & Technologies"
+      subtitle="Technologies and tools I work with"
+    />
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {skills.map(skill => (
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-4">{skill.category}</h3>
+          <div class="flex flex-wrap gap-2">
+            {skill.items.map(item => (
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">{item}</span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

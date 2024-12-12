@@ -1,0 +1,25 @@
+---
+import { siteConfig } from '../config/site';
+import SectionHeading from './ui/SectionHeading.astro';
+import Button from './ui/Button.astro';
+import SocialLinks from './SocialLinks.astro';
+---
+<section id="contact" class="py-20 bg-white">
+  <div class="max-w-3xl mx-auto px-4">
+    <SectionHeading
+      title="Get in Touch"
+      subtitle="Let's connect and discuss opportunities"
+    />
+    <div class="text-center mb-12">
+      <p class="text-gray-600 mb-8">
+        Feel free to reach out through any of these platforms:
+      </p>
+      <SocialLinks />
+    </div>
+    <div class="text-center">
+      <Button href={`mailto:${siteConfig.email}`} variant="primary">
+        Send Email
+      </Button>
+    </div>
+  </div>
+</section>
