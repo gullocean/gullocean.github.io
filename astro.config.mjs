@@ -5,5 +5,8 @@ export default defineConfig({
   site: 'https://gullocean.github.io',
   base: '/portfolio',
   integrations: [tailwind()],
-  output: 'static'
+  output: 'static',
+  build: {
+    assets: 'assets'
+  }
 });
