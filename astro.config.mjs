@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  site: 'https://yourusername.github.io',
+  site: 'https://gullocean.github.io',
   base: '/portfolio',
   integrations: [tailwind()],
   output: 'static'
